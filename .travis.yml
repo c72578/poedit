@@ -60,10 +60,9 @@ cache:
 deploy:
     provider: releases
     api_key:
-        secure: fkelxNMcGoNY4MT30dEiEUE53cMkhtmr44Y7iSEkOGmfeG9ReUqVIk1nd7027iehzdhhcov57XwHg49KA+AWpQGvEbLkRNRazOxSGFL9o/P/Rzft/tvKP0sxcRF5RUVo0b5J5wlsIKSlbjDqGu9CM+G4eyK0D2jo/XPzsv9akKQ=
+        secure: t8iW5Wt4W1pwGdEFRFZNq7FVB4pP4oaRp7dZ2Pe6eluCynVQg60E+nHHtnXTU3sadn6p+stQJ7kXk2PggVM0dY1BNHTPdYiicrPZE6zpww5Fzpb7NLdXp7XiAqM5z1Ix+Aloj7Kf0W8SiDfM/ceMa+FjccXpA2t+gv4EjojcyqXetz+BSSoNq4HxU3gkXyK8WcKEyiJHwZjmUzJi+RTJYPcy/bF0+61YjbawUBE5Gm6loZlTqCMS3OXAhw/9PAF7t0As4WRC7N86Au2tJ9xVTpKef9SubEA3epzsMd5mKiXEzWpbqPlqt6qqX8E8zolf574Rz5mXtlOazw3A0HqB+dcVcdHJu7WsQFAiBGzFOY9f5wpmH49EZTk6X8K/4W4wDGpPoGhgH6h8/15p6dtYO8LESk+Pw/ienrKSco/39f93fVkwkcl1/Ok1xctBH/3KVTeyZfJLbmUPvdy48/UKieyB9mIvYABatwxlrW7lXMyi9//Dm/bftj4bw98PLpAOeEW4jBVbWRqv5LcaMrzNJHdwLLeqTlw9BLocw2a8W+UvoY166P1u8IicQwuNK6Bmt2DaP9BgnOr68HMqecI697rn0xaDerXlDkNLkuIWJK9g/THThn8K5BVsyCVIdjwKZmd5DeIZ0RT04llnndBChdigRp+u5wcvXaROoXThdec=
     skip_cleanup: true
     file: poedit-2.1.tar.gz
     on:
-        repo: vslavik/poedit
-        tags: true
-        all_branches: true
+        repo: c72578/poedit
+        branch: master_fork_travis
